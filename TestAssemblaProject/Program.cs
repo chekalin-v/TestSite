@@ -33,8 +33,9 @@ namespace TestAssemblaProject
             task.Start();
 
             Console.ReadLine();
-            
             _cts.Cancel();
+
+            Console.ReadLine();
 
 
         }
@@ -45,7 +46,7 @@ namespace TestAssemblaProject
             {
                 while (true)
                 {
-                    Console.WriteLine("Hello, Assembla! Press any key to cancel...");
+                    Console.WriteLine("Hello, Assembla! Press Enter to cancel...");
                     token.ThrowIfCancellationRequested();
                     Thread.Sleep(100);
                 }
