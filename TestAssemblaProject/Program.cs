@@ -31,8 +31,6 @@ namespace TestAssemblaProject
             _cts.Cancel();
 
             Console.ReadLine();
-
-
         }
 
         private void OutputHello(CancellationToken token)
