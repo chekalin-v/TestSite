@@ -15,8 +15,10 @@ namespace TestAssemblaProject
         static void Main(string[] args)
         {
             Program p = new Program();
-
+            var r = new OtherClass();
+            r.ShowSum();
             p.SayHello();
+            
 
             //Console.WriteLine();
                         
