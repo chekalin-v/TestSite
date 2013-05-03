@@ -10,7 +10,7 @@ namespace TestAssemblaProject
         public int OpA { get; set;}
         public int OpB { get; set; }
         public OtherClass()
-        {
+        { 
             OpA = 1;
             OpB = 2;
         }
