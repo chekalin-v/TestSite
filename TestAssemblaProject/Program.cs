@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -9,19 +6,15 @@ namespace TestAssemblaProject
 {
     class Program
     {
-        CancellationTokenSource _cts = 
+        readonly CancellationTokenSource _cts = 
             new CancellationTokenSource();
 
-        static void Main(string[] args)
+        static void Main()
         {
             var p = new Program();
             var r = new OtherClass();
             r.ShowSum();
-            p.SayHello();
-            
-
-            //Console.WriteLine();
-                        
+            p.SayHello();                                              
         }
 
         private void SayHello()
