@@ -9,6 +9,8 @@ namespace TestAssemblaProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, Assembla!");
+            Console.ReadLine();
         }
     }
 }
