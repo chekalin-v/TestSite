@@ -1,3 +1,5 @@
 reinstalled git. Checking functionality
 
 -- changings after pull
+
+-- changes No. 2
