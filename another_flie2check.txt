@@ -1,11 +1,1 @@
-reinstalled git. Checking functionality
-
-<<<<<<< HEAD
--- changings after pull
-
--- amskryabin ticket #1 09/05/13
-
---another one
-=======
--- changes No. 2-- amskryabin ticket #1 09/05/13
->>>>>>> 260a426284234bb34b7ad200ae64ab2644bc5147
+Remove everything
