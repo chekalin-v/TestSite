@@ -1,5 +1,3 @@
 reinstalled git. Checking functionality
 
--- changings after pull
-
--- changes No. 2
+-- changes No. 2-- amskryabin ticket #1 09/05/13
