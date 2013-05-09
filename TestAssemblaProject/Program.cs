@@ -5,13 +5,17 @@ using System.Linq;
 
 namespace TestAssemblaProject
 {
+    /// <summary>
+    /// Main program class
+    /// </summary>
     class Program
     {
         readonly CancellationTokenSource _cts = 
             new CancellationTokenSource();
 
-        static void Main()
+        static void Main(int[] args)
         {
+            /* Create a new instance of the program class*/
             var p = new Program();
             var r = new OtherClass();
             r.ShowSum();
