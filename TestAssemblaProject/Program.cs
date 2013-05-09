@@ -14,7 +14,7 @@ namespace TestAssemblaProject
             var p = new Program();
             var r = new OtherClass();
             r.ShowSum();
-            p.SayHello();                                              
+            p.SayHello();            
         }
 
         private void SayHello()
@@ -23,7 +23,9 @@ namespace TestAssemblaProject
                 _cts.Token;
             
             var task =
-                new Task(()=>OutputHello(token), token);            
+                new Task(()=>OutputHello(token), token);
+
+            task.ContinueWith(t => SayGoodBye());
 
             task.Start();
 
@@ -31,6 +33,11 @@ namespace TestAssemblaProject
             _cts.Cancel();
 
             Console.ReadLine();
+        }
+
+        private void SayGoodBye()
+        {
+            Console.WriteLine("Good bye...");
         }
 
         private void OutputHello(CancellationToken token)
