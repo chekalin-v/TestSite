@@ -18,5 +18,9 @@ namespace TestAssemblaProject
         {
             Console.WriteLine("Sum of ops equals {0}",OpA+OpB);
         }
+        public void ShowDiff()
+        {
+            Console.WriteLine("Diff of ops equals {0}", OpB-OpA);
+        }
     }
 }
