@@ -23,6 +23,9 @@ namespace TestAssemblaProject
             r.ShowSum();
             
             p.SayHello();
+
+            r.ShowDiff();
+
         }
 
         /// <summary>
@@ -70,5 +73,6 @@ namespace TestAssemblaProject
             }
 
         }
+
     }
 }
