@@ -1,0 +1,3 @@
+-- want to resolve a conflict using mine
+
+Here is a very omportant text. Never remove it. Never!
