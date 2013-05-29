@@ -9,7 +9,7 @@
     <ASP:Repeater id="MyRepeater" runat="server">
       <HeaderTemplate>
          <Table width="100%" style="font: 8pt verdana">
-            <tr style="background-color:DFA894">
+            <tr bgcolor="#FB2312">
                <th>
                   Id
                </th>
