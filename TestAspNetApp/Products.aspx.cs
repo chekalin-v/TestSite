@@ -24,7 +24,7 @@ namespace TestAspNetApp
             // Connect to the SQL database using a SQL SELECT query to get 
             // all the data from the "Titles" table.
             SqlDataAdapter myCommand = 
-                new SqlDataAdapter("SELECT p.*, c.Name 'Category' FROM Products p JOIN Categories c ON p.CategoryId = c.Id", myConnection);
+                new SqlDataAdapter("SELECT p.*, c.Name 'Category' FROM Products p JOIN Categories c ON p.CategoryId = c.Id WHERE p.Id > 1", myConnection);
             // Create and fill a DataSet.
             DataSet ds = new DataSet();
             myCommand.Fill(ds);
