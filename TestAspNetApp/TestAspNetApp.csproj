@@ -30,7 +30,7 @@
     <OutputPath>bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>   
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug.Victor|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -41,7 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>    
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug.Shridhar|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -63,7 +63,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>    
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -184,6 +184,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
