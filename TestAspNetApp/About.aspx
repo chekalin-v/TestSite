@@ -8,6 +8,6 @@
         About
     </h2>
     <p>
-        Put content here.
+        This is the test site which were created to test EcoDomus development workflow.
     </p>
 </asp:Content>
