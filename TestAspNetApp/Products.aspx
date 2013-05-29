@@ -18,7 +18,10 @@
                </th>
                <th>
                   Description
-               </th>               
+               </th> 
+               <th>
+                   Category
+               </th>              
             </tr>
       </HeaderTemplate>
 
@@ -32,6 +35,9 @@
                </td>
                <td>
                   <%# DataBinder.Eval(Container.DataItem, "Description") %>
+               </td>              
+               <td>
+                  <%# DataBinder.Eval(Container.DataItem, "Category") %>
                </td>              
             </tr>
       </ItemTemplate>
