@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="189afaf1-b31a-44d0-b31e-5ba220396555" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://testfm.ecodomus.com/EcoDomus%20Client/ClientOrganization.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ClientOrganization.xsd" MetadataType="Schema" ID="779f8c75-e3b3-49df-9ba5-340035e61a6e" SourceId="1" SourceUrl="http://testfm.ecodomus.com/EcoDomus Client/ClientOrganization.svc?xsd=xsd3" />
+    <MetadataFile FileName="ClientOrganization1.xsd" MetadataType="Schema" ID="2dc0214a-4acc-4fdd-a797-235b091a21e4" SourceId="1" SourceUrl="http://testfm.ecodomus.com/EcoDomus Client/ClientOrganization.svc?xsd=xsd2" />
+    <MetadataFile FileName="ClientOrganization2.xsd" MetadataType="Schema" ID="1dc90935-82bd-4c85-a8a2-2a1eb88d8775" SourceId="1" SourceUrl="http://testfm.ecodomus.com/EcoDomus Client/ClientOrganization.svc?xsd=xsd1" />
+    <MetadataFile FileName="ClientOrganization3.xsd" MetadataType="Schema" ID="bbc9e43b-5b3a-4217-b8cf-02cdd6419ca4" SourceId="1" SourceUrl="http://testfm.ecodomus.com/EcoDomus Client/ClientOrganization.svc?xsd=xsd0" />
+    <MetadataFile FileName="ClientOrganization.wsdl" MetadataType="Wsdl" ID="e64d5d9a-4b4c-4d97-8389-5605b1c5e6de" SourceId="1" SourceUrl="http://testfm.ecodomus.com/EcoDomus Client/ClientOrganization.svc?wsdl" />
+    <MetadataFile FileName="ClientOrganization.disco" MetadataType="Disco" ID="a21176fa-bd21-4fd5-b25d-b269985e66fe" SourceId="1" SourceUrl="http://testfm.ecodomus.com/EcoDomus Client/ClientOrganization.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

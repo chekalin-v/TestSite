@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspNetApp", "TestAspNetApp\TestAspNetApp.csproj", "{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug.LocalDev|Any CPU = Debug.LocalDev|Any CPU
+		Debug.Shridhar|Any CPU = Debug.Shridhar|Any CPU
+		Debug.Victor|Any CPU = Debug.Victor|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.LocalDev|Any CPU.ActiveCfg = Debug.LocalDev|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.LocalDev|Any CPU.Build.0 = Debug.LocalDev|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Shridhar|Any CPU.ActiveCfg = Debug.Shridhar|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Shridhar|Any CPU.Build.0 = Debug.Shridhar|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Victor|Any CPU.ActiveCfg = Debug.Victor|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Victor|Any CPU.Build.0 = Debug.Victor|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
