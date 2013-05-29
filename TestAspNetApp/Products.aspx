@@ -6,6 +6,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     
+    <h3>Products</h3>
+
     <ASP:Repeater id="MyRepeater" runat="server">
       <HeaderTemplate>
          <Table width="100%" style="font: 8pt verdana">
