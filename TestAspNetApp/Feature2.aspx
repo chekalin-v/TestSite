@@ -6,6 +6,6 @@
     <h1>Feature 2</h1>
     
     <p>
-        Here is the serions bug
+        The bug was fixed.
     </p>
 </asp:Content>
