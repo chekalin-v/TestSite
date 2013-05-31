@@ -92,6 +92,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\PublishProfiles\ecodomus_prod %28on test server%29.pubxml" />
     <None Include="Properties\PublishProfiles\ecodomus_test.pubxml" />
     <None Include="Properties\PublishProfiles\nz.pubxml" />
     <None Include="Service References\ServiceReference1xxx\ClientOrganization.disco" />
