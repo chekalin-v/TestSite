@@ -188,7 +188,8 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Feature1.aspx.designer.cs">
-      <DependentUpon>Feature1.aspx</DependentUpon>
+      <DependentUpon>Feature1.aspx</DependentUpon>   
+    </Compile>            
     <Compile Include="Feature2.aspx.cs">
       <DependentUpon>Feature2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
