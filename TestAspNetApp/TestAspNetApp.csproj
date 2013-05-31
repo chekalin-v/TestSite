@@ -112,9 +112,7 @@
     </None>
     <Content Include="Customers.aspx" />
     <Content Include="Feature1.aspx" />
-    <Content Include="Feature2.aspx" />
-    <Content Include="Feature2.aspx" />
-    <Content Include="Feature1.aspx" />
+    <Content Include="Feature2.aspx" />    
     <Content Include="Products.aspx" />
     <Content Include="SiteConfiguration.aspx" />
     <Content Include="Styles\Site.css" />
@@ -220,13 +218,6 @@
     <Compile Include="Feature2.aspx.designer.cs">
       <DependentUpon>Feature2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Feature1.aspx.cs">
-      <DependentUpon>Feature1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Feature1.aspx.designer.cs">
-      <DependentUpon>Feature1.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -288,7 +279,6 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53465</DevelopmentServerPort>
           <DevelopmentServerPort>59661</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
