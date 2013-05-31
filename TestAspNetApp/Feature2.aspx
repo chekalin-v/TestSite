@@ -3,5 +3,5 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Feature 2</h2>
-    <p>Here is the bug</p>
+    <p>The bug is fixed</p>
 </asp:Content>
