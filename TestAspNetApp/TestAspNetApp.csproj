@@ -102,6 +102,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="Feature1.aspx" />
+    <Content Include="Feature2.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -188,6 +189,12 @@
     </Compile>
     <Compile Include="Feature1.aspx.designer.cs">
       <DependentUpon>Feature1.aspx</DependentUpon>
+    <Compile Include="Feature2.aspx.cs">
+      <DependentUpon>Feature2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feature2.aspx.designer.cs">
+      <DependentUpon>Feature2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
