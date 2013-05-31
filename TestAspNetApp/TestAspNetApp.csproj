@@ -268,9 +268,7 @@
     <MakeDir Directories="obj\$(Configuration)" Condition="!Exists('obj\$(Configuration)')" />
     <TransformXml Source="Web.Config" Transform="Web.$(Configuration).config" Destination="obj\$(Configuration)\Web.config" StackTrace="true" />
   </Target>
-  <PropertyGroup>
-    <PostBuildEvent>IF NOT "$(ConfigurationName)" == "Release" (
- $(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
+  <PropertyGroup>    
     <PostBuildEvent>IF NOT "$(ConfigurationName)"== "Release" (
 $(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
 xcopy "$(ProjectDir)obj\$(ConfigurationName)\Web.Config" "$(ProjectDir)". /F /R /Y
