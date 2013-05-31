@@ -101,6 +101,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Customers.aspx" />
     <Content Include="Feature1.aspx" />
     <Content Include="Feature2.aspx" />
     <Content Include="Products.aspx" />
@@ -176,6 +177,13 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Customers.aspx.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers.aspx.designer.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -188,8 +196,8 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Feature1.aspx.designer.cs">
-      <DependentUpon>Feature1.aspx</DependentUpon>   
-    </Compile>            
+      <DependentUpon>Feature1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Feature2.aspx.cs">
       <DependentUpon>Feature2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -276,7 +284,7 @@
     <MakeDir Directories="obj\$(Configuration)" Condition="!Exists('obj\$(Configuration)')" />
     <TransformXml Source="Web.Config" Transform="Web.$(Configuration).config" Destination="obj\$(Configuration)\Web.config" StackTrace="true" />
   </Target>
-  <PropertyGroup>    
+  <PropertyGroup>
     <PostBuildEvent>IF NOT "$(ConfigurationName)"== "Release" (
 $(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
 xcopy "$(ProjectDir)obj\$(ConfigurationName)\Web.Config" "$(ProjectDir)". /F /R /Y
