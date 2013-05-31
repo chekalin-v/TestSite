@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     
-    <h1>Feature2</h1>
+    <h1>Feature 2</h1>
     
     <p>
         Here is the serions bug

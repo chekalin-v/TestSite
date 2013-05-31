@@ -200,7 +200,7 @@
     </Compile>
     <Compile Include="Feature2.aspx.designer.cs">
       <DependentUpon>Feature2.aspx</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Feature1.aspx.cs">
       <DependentUpon>Feature1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -262,7 +262,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>58526</DevelopmentServerPort>
+          <DevelopmentServerPort>59661</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
