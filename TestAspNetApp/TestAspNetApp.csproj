@@ -261,7 +261,9 @@
     <TransformXml Source="Web.Config" Transform="Web.$(Configuration).config" Destination="obj\$(Configuration)\Web.config" StackTrace="true" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>rem $(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
-rem xcopy "$(ProjectDir)obj\$(ConfigurationName)\Web.Config" "$(ProjectDir)". /F /R /Y</PostBuildEvent>
+    <PostBuildEvent>IF NOT "$(ConfigurationName)" == "Release" (
+ $(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
+xcopy "$(ProjectDir)obj\$(ConfigurationName)\Web.Config" "$(ProjectDir)". /F /R /Y
+)</PostBuildEvent>
   </PropertyGroup>
 </Project>
