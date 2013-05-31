@@ -105,6 +105,7 @@
     <Content Include="Feature1.aspx" />
     <Content Include="Feature2.aspx" />
     <Content Include="Products.aspx" />
+    <Content Include="SiteConfiguration.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteConfiguration.aspx.cs">
+      <DependentUpon>SiteConfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteConfiguration.aspx.designer.cs">
+      <DependentUpon>SiteConfiguration.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
