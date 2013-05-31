@@ -271,6 +271,8 @@
   <PropertyGroup>
     <PostBuildEvent>IF NOT "$(ConfigurationName)" == "Release" (
  $(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
+    <PostBuildEvent>IF NOT "$(ConfigurationName)"== "Release" (
+$(MSBUILDBINPATH)\msbuild "$(ProjectPath)" /t:Transform /p:Configuration=$(ConfigurationName);Platform="$(PlatformName)"
 xcopy "$(ProjectDir)obj\$(ConfigurationName)\Web.Config" "$(ProjectDir)". /F /R /Y
 )</PostBuildEvent>
   </PropertyGroup>
