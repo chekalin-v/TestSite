@@ -200,6 +200,7 @@
     </Compile>
     <Compile Include="Feature2.aspx.designer.cs">
       <DependentUpon>Feature2.aspx</DependentUpon>
+	</Compile>
     <Compile Include="Feature1.aspx.cs">
       <DependentUpon>Feature1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
