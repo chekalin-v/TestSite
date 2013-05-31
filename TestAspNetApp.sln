@@ -5,6 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspNetApp", "TestAspNet
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug.Dev1|Any CPU = Debug.Dev1|Any CPU
 		Debug.LocalDev|Any CPU = Debug.LocalDev|Any CPU
 		Debug.Shridhar|Any CPU = Debug.Shridhar|Any CPU
 		Debug.Victor|Any CPU = Debug.Victor|Any CPU
@@ -12,6 +13,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Dev1|Any CPU.ActiveCfg = Debug.Dev1|Any CPU
+		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Dev1|Any CPU.Build.0 = Debug.Dev1|Any CPU
 		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.LocalDev|Any CPU.ActiveCfg = Debug.LocalDev|Any CPU
 		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.LocalDev|Any CPU.Build.0 = Debug.LocalDev|Any CPU
 		{E2CD9ED9-38ED-4DAF-A973-806F491D0F2C}.Debug.Shridhar|Any CPU.ActiveCfg = Debug.Shridhar|Any CPU
