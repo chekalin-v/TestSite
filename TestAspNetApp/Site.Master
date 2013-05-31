@@ -35,14 +35,8 @@
                         <asp:MenuItem NavigateUrl="~/Products.aspx" Text="Products"/>
                         <asp:MenuItem NavigateUrl="~/Customers.aspx" Text="Customers"/>
                         <asp:MenuItem NavigateUrl="~/Feature1.aspx" Text="Feature1"/>
-<<<<<<< HEAD
                         <asp:MenuItem NavigateUrl="~/Feature2.aspx" Text="Feature2"/>                        
-=======
-                        <asp:MenuItem NavigateUrl="~/Feature2.aspx" Text="Feature2"/>
-
                         <asp:MenuItem NavigateUrl="~/SiteConfiguration.aspx" Text="Configuration"/>
-
->>>>>>> 01d496203a58c88218bb9d72534af41fc75a676f
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
                     </Items>
                 </asp:Menu>
