@@ -2,6 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Feature 2</h2>
-    <p>The bug is fixed</p>
+    
+    <h1>Feature 2</h1>
+    
+    <p>
+        Here is the serions bug
+    </p>
 </asp:Content>
